@@ -1,0 +1,6 @@
+framework module LSRouter_Swift {
+  umbrella header "LSRouter_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
