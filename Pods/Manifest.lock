@@ -1,11 +1,11 @@
 PODS:
-  - LSRouter_Swift (1.0.2)
+  - LSRouter_Swift (1.0.3)
 
 DEPENDENCIES:
   - LSRouter_Swift
 
 SPEC CHECKSUMS:
-  LSRouter_Swift: ced751759828e5821687f4bc711d821b08b93e4f
+  LSRouter_Swift: 8dcab4db8513b4b4ab7bff62270dcd2d9752c355
 
 PODFILE CHECKSUM: 86e0a870a12b6168630d24be927e4fd63f20c978
 
