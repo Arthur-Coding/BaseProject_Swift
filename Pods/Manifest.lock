@@ -1,12 +1,35 @@
 PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - LSRootNavigationController (1.1.2)
   - LSRouter_Swift (1.0.3)
+  - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
+  - AFNetworking
+  - LSRootNavigationController
   - LSRouter_Swift
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  LSRootNavigationController: 2eb7f0cd6666b14c32a6e4f5fd2259786e38bdc0
   LSRouter_Swift: 8dcab4db8513b4b4ab7bff62270dcd2d9752c355
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 86e0a870a12b6168630d24be927e4fd63f20c978
+PODFILE CHECKSUM: cb456670239f06821a9ff53f600b03fe24e3c82a
 
 COCOAPODS: 1.4.0

@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		061307682043D36700628467 /* LSRouter+AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061307672043D36700628467 /* LSRouter+AppDelegate.swift */; };
 		0613076A2043DCB700628467 /* LSRouter+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061307692043DCB700628467 /* LSRouter+Foundation.swift */; };
+		0613076C2043E9FE00628467 /* LSRouter+Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0613076B2043E9FE00628467 /* LSRouter+Operation.swift */; };
+		0613076E2043FEDC00628467 /* LSRouter+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0613076D2043FEDC00628467 /* LSRouter+API.swift */; };
+		061307712044001100628467 /* LSRouter+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061307702044001100628467 /* LSRouter+Network.swift */; };
+		061307732044459400628467 /* LSRouter+TimeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061307722044459400628467 /* LSRouter+TimeCategory.swift */; };
 		068AEFE22021695C00033CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068AEFE12021695C00033CAB /* AppDelegate.swift */; };
 		068AEFE72021695C00033CAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068AEFE52021695C00033CAB /* Main.storyboard */; };
 		068AEFE92021695C00033CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068AEFE82021695C00033CAB /* Assets.xcassets */; };
@@ -20,6 +24,10 @@
 		04A8335B8C65727BD9A994A7 /* Pods-BaseProject_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject_Swift/Pods-BaseProject_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		061307672043D36700628467 /* LSRouter+AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LSRouter+AppDelegate.swift"; sourceTree = "<group>"; };
 		061307692043DCB700628467 /* LSRouter+Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LSRouter+Foundation.swift"; sourceTree = "<group>"; };
+		0613076B2043E9FE00628467 /* LSRouter+Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LSRouter+Operation.swift"; sourceTree = "<group>"; };
+		0613076D2043FEDC00628467 /* LSRouter+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LSRouter+API.swift"; sourceTree = "<group>"; };
+		061307702044001100628467 /* LSRouter+Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LSRouter+Network.swift"; sourceTree = "<group>"; };
+		061307722044459400628467 /* LSRouter+TimeCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LSRouter+TimeCategory.swift"; sourceTree = "<group>"; };
 		06886111203FE8E4001D8EA3 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		068AEFDE2021695C00033CAB /* BaseProject_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		068AEFE12021695C00033CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +61,7 @@
 		0613075F2043CC7200628467 /* Initialization_Tools */ = {
 			isa = PBXGroup;
 			children = (
+				061307722044459400628467 /* LSRouter+TimeCategory.swift */,
 			);
 			name = Initialization_Tools;
 			sourceTree = "<group>";
@@ -60,6 +69,8 @@
 		061307602043CC8A00628467 /* Initialization_Network */ = {
 			isa = PBXGroup;
 			children = (
+				0613076D2043FEDC00628467 /* LSRouter+API.swift */,
+				061307702044001100628467 /* LSRouter+Network.swift */,
 			);
 			name = Initialization_Network;
 			sourceTree = "<group>";
@@ -76,6 +87,13 @@
 			children = (
 			);
 			name = Project_Resources;
+			sourceTree = "<group>";
+		};
+		0613076F2043FF1000628467 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		068AEFD52021695C00033CAB = {
@@ -143,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				068AEFE82021695C00033CAB /* Assets.xcassets */,
+				0613076F2043FF1000628467 /* Images */,
 			);
 			path = Project_Images;
 			sourceTree = "<group>";
@@ -169,6 +188,7 @@
 				068AEFE12021695C00033CAB /* AppDelegate.swift */,
 				061307672043D36700628467 /* LSRouter+AppDelegate.swift */,
 				061307692043DCB700628467 /* LSRouter+Foundation.swift */,
+				0613076B2043E9FE00628467 /* LSRouter+Operation.swift */,
 			);
 			path = Initialization_System;
 			sourceTree = "<group>";
@@ -301,11 +321,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BaseProject_Swift/Pods-BaseProject_Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/LSRouter_Swift/LSRouter_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LSRouter_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -319,9 +343,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				061307732044459400628467 /* LSRouter+TimeCategory.swift in Sources */,
 				061307682043D36700628467 /* LSRouter+AppDelegate.swift in Sources */,
 				0613076A2043DCB700628467 /* LSRouter+Foundation.swift in Sources */,
+				0613076E2043FEDC00628467 /* LSRouter+API.swift in Sources */,
 				068AEFE22021695C00033CAB /* AppDelegate.swift in Sources */,
+				061307712044001100628467 /* LSRouter+Network.swift in Sources */,
+				0613076C2043E9FE00628467 /* LSRouter+Operation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

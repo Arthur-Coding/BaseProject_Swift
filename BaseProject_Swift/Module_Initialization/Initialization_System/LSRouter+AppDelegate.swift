@@ -5,6 +5,8 @@
 //  Created by ArthurShuai on 2018/2/26.
 //  Copyright © 2018年 ArthurShuai. All rights reserved.
 //
+//  文档名称：AppDelegate配置
+//  功能描述：AppDelegate配置
 
 import UIKit
 import LSRouter_Swift
@@ -17,7 +19,7 @@ public extension LSRouter {
         let tableView:UITableView = UITableView.appearance()
         tableView.tableHeaderView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: 0, height: CGFloat.leastNormalMagnitude))
         tableView.tableFooterView = UIView.init()
-
+        
         // 远程推送配置
         // registerUserNotification()
     }
