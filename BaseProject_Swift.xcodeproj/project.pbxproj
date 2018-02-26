@@ -39,39 +39,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		061307572043CAFD00628467 /* Modules */ = {
+		0613075D2043CC5500628467 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Modules;
+			name = Modules;
 			sourceTree = "<group>";
 		};
-		061307582043CB0B00628467 /* Initialization_Network */ = {
+		0613075F2043CC7200628467 /* Initialization_Tools */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Initialization_Network;
+			name = Initialization_Tools;
 			sourceTree = "<group>";
 		};
-		061307592043CB1500628467 /* Initialization_Tools */ = {
+		061307602043CC8A00628467 /* Initialization_Network */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Initialization_Tools;
+			name = Initialization_Network;
 			sourceTree = "<group>";
 		};
-		0613075A2043CB2A00628467 /* Project_SimulatedData */ = {
+		061307612043CCA500628467 /* Project_SimulatedData */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Project_SimulatedData;
+			name = Project_SimulatedData;
 			sourceTree = "<group>";
 		};
-		0613075B2043CB3800628467 /* Project_Resources */ = {
+		061307622043CCAD00628467 /* Project_Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Project_Resources;
+			name = Project_Resources;
 			sourceTree = "<group>";
 		};
 		068AEFD52021695C00033CAB = {
@@ -98,7 +98,7 @@
 			children = (
 				068AEFF720216C4000033CAB /* Project_Configuration */,
 				068AEFF620216C3700033CAB /* Module_Initialization */,
-				061307572043CAFD00628467 /* Modules */,
+				0613075D2043CC5500628467 /* Modules */,
 			);
 			path = BaseProject_Swift;
 			sourceTree = "<group>";
@@ -117,8 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				068AF00020216D0400033CAB /* Initialization_System */,
-				061307582043CB0B00628467 /* Initialization_Network */,
-				061307592043CB1500628467 /* Initialization_Tools */,
+				061307602043CC8A00628467 /* Initialization_Network */,
+				0613075F2043CC7200628467 /* Initialization_Tools */,
 			);
 			path = Module_Initialization;
 			sourceTree = "<group>";
@@ -129,8 +129,8 @@
 				068AEFFD20216C8C00033CAB /* Project_Initialization */,
 				068AEFFB20216C7C00033CAB /* Project_Launch */,
 				068AEFFA20216C7000033CAB /* Project_Images */,
-				0613075B2043CB3800628467 /* Project_Resources */,
-				0613075A2043CB2A00628467 /* Project_SimulatedData */,
+				061307622043CCAD00628467 /* Project_Resources */,
+				061307612043CCA500628467 /* Project_SimulatedData */,
 			);
 			path = Project_Configuration;
 			sourceTree = "<group>";
