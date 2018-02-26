@@ -39,6 +39,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		061307572043CAFD00628467 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		061307582043CB0B00628467 /* Initialization_Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Initialization_Network;
+			sourceTree = "<group>";
+		};
+		061307592043CB1500628467 /* Initialization_Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Initialization_Tools;
+			sourceTree = "<group>";
+		};
+		0613075A2043CB2A00628467 /* Project_SimulatedData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Project_SimulatedData;
+			sourceTree = "<group>";
+		};
+		0613075B2043CB3800628467 /* Project_Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Project_Resources;
+			sourceTree = "<group>";
+		};
 		068AEFD52021695C00033CAB = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +98,7 @@
 			children = (
 				068AEFF720216C4000033CAB /* Project_Configuration */,
 				068AEFF620216C3700033CAB /* Module_Initialization */,
-				068AEFF420216C1500033CAB /* Modules */,
+				061307572043CAFD00628467 /* Modules */,
 			);
 			path = BaseProject_Swift;
 			sourceTree = "<group>";
@@ -78,19 +113,12 @@
 			path = Others;
 			sourceTree = "<group>";
 		};
-		068AEFF420216C1500033CAB /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
 		068AEFF620216C3700033CAB /* Module_Initialization */ = {
 			isa = PBXGroup;
 			children = (
 				068AF00020216D0400033CAB /* Initialization_System */,
-				068AEFFF20216CFC00033CAB /* Initialization_Network */,
-				068AEFFE20216CF000033CAB /* Initialization_Tools */,
+				061307582043CB0B00628467 /* Initialization_Network */,
+				061307592043CB1500628467 /* Initialization_Tools */,
 			);
 			path = Module_Initialization;
 			sourceTree = "<group>";
@@ -101,24 +129,10 @@
 				068AEFFD20216C8C00033CAB /* Project_Initialization */,
 				068AEFFB20216C7C00033CAB /* Project_Launch */,
 				068AEFFA20216C7000033CAB /* Project_Images */,
-				068AEFF920216C6800033CAB /* Project_Resources */,
-				068AEFF820216C5100033CAB /* Project_SimulatedData */,
+				0613075B2043CB3800628467 /* Project_Resources */,
+				0613075A2043CB2A00628467 /* Project_SimulatedData */,
 			);
 			path = Project_Configuration;
-			sourceTree = "<group>";
-		};
-		068AEFF820216C5100033CAB /* Project_SimulatedData */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Project_SimulatedData;
-			sourceTree = "<group>";
-		};
-		068AEFF920216C6800033CAB /* Project_Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Project_Resources;
 			sourceTree = "<group>";
 		};
 		068AEFFA20216C7000033CAB /* Project_Images */ = {
@@ -143,20 +157,6 @@
 				06886111203FE8E4001D8EA3 /* Bridging-Header.h */,
 			);
 			path = Project_Initialization;
-			sourceTree = "<group>";
-		};
-		068AEFFE20216CF000033CAB /* Initialization_Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Initialization_Tools;
-			sourceTree = "<group>";
-		};
-		068AEFFF20216CFC00033CAB /* Initialization_Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Initialization_Network;
 			sourceTree = "<group>";
 		};
 		068AF00020216D0400033CAB /* Initialization_System */ = {
