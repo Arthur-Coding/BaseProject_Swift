@@ -75,13 +75,6 @@
 			name = Initialization_Network;
 			sourceTree = "<group>";
 		};
-		061307612043CCA500628467 /* Project_SimulatedData */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Project_SimulatedData;
-			sourceTree = "<group>";
-		};
 		061307622043CCAD00628467 /* Project_Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,7 +145,6 @@
 				068AEFFB20216C7C00033CAB /* Project_Launch */,
 				068AEFFA20216C7000033CAB /* Project_Images */,
 				061307622043CCAD00628467 /* Project_Resources */,
-				061307612043CCA500628467 /* Project_SimulatedData */,
 			);
 			path = Project_Configuration;
 			sourceTree = "<group>";
@@ -492,7 +484,7 @@
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ArthurShuai.BaseProject_Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArthurShuai.BaseProject_Swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/Project_Configuration/Project_Initialization/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
@@ -511,7 +503,7 @@
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ArthurShuai.BaseProject_Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArthurShuai.BaseProject_Swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/Project_Configuration/Project_Initialization/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
