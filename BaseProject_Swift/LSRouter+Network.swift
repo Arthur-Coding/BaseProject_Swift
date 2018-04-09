@@ -8,7 +8,6 @@
 
 import Foundation
 import LSRouter_Swift
-import AFNetworking
 import SwiftyJSON
 
 public extension LSRouter {

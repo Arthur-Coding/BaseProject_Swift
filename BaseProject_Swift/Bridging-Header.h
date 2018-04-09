@@ -11,4 +11,7 @@
 #ifndef Bridging_Header_h
 #define Bridging_Header_h
 
+#import <LSRootNavigationController/LSRootNavigationController.h>
+#import "AFNetworking.h"
+
 #endif /* Bridging_Header_h */

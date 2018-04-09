@@ -54,14 +54,6 @@
 			name = Modules;
 			sourceTree = "<group>";
 		};
-		061307622043CCAD00628467 /* Project_Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Project_Resources;
-			path = Project_Configuration;
-			sourceTree = "<group>";
-		};
 		06835EB6207B712D00E2AB8C /* Module_Initialization */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +68,6 @@
 			children = (
 				06835EBE207B71E700E2AB8C /* Project_Launch */,
 				06835EBB207B71B900E2AB8C /* Project_Images */,
-				061307622043CCAD00628467 /* Project_Resources */,
 			);
 			name = Project_Configuration;
 			sourceTree = "<group>";
