@@ -20,8 +20,6 @@ public extension LSRouter {
         tableView.tableHeaderView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: 0, height: CGFloat.leastNormalMagnitude))
         tableView.tableFooterView = UIView.init()
         
-        // 远程推送配置
-        // registerUserNotification()
     }
 
     // MARK: - 通知相关配置
