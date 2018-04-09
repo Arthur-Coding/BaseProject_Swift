@@ -68,6 +68,7 @@
 			children = (
 				06835EBE207B71E700E2AB8C /* Project_Launch */,
 				06835EBB207B71B900E2AB8C /* Project_Images */,
+				06835ECF207B80C200E2AB8C /* Project_Resources */,
 			);
 			name = Project_Configuration;
 			sourceTree = "<group>";
@@ -114,6 +115,13 @@
 				061307692043DCB700628467 /* LSRouter+Foundation.swift */,
 			);
 			name = Initialization_System;
+			sourceTree = "<group>";
+		};
+		06835ECF207B80C200E2AB8C /* Project_Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Project_Resources;
 			sourceTree = "<group>";
 		};
 		068AEFD52021695C00033CAB = {
