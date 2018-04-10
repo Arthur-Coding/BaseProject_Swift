@@ -15,15 +15,15 @@ public extension LSRouter {
     /// 网络请求
     public class func networkManager() -> AFHTTPSessionManager
     {
-        let session:AFHTTPSessionManager! = AFHTTPSessionManager.init();
+        let session:AFHTTPSessionManager! = AFHTTPSessionManager.init()
         if baseUrl.hasPrefix("https") {
             // 设置HTTPS免证书登录
             let securityPolicy = AFSecurityPolicy.default()
-            securityPolicy.allowInvalidCertificates = true;
-            securityPolicy.validatesDomainName = false;
+            securityPolicy.allowInvalidCertificates = true
+            securityPolicy.validatesDomainName = false
             session.securityPolicy = securityPolicy
         }
-        return session;
+        return session
     }
 
     /// 网络状态监控
