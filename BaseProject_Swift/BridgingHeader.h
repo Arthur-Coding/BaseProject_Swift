@@ -12,6 +12,7 @@
 #define Bridging_Header_h
 
 #import <LSRootNavigationController/LSRootNavigationController.h>
-#import "AFNetworking.h"
+#import "LocalGuideView.h"
+#import "UIImage+Extension.h"
 
 #endif /* Bridging_Header_h */
