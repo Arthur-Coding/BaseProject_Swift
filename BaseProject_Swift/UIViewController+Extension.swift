@@ -94,7 +94,7 @@ extension UIViewController {
                 }
             break
             case .denied, .restricted:
-                LSRouter.alert2("请授权芒起来使用摄像头", "请在“设置”>“隐私”>“相机”中或“设置”>“手机麻麻”中打开", { (_) in
+                LSRouter.alert2("请授权XXX使用摄像头", "请在“设置”>“隐私”>“相机”中或“设置”>“XXX”中打开", { (_) in
                     let url = URL.init(string: UIApplication.openSettingsURLString)
                     if UIApplication.shared.canOpenURL(url!) {
                         UIApplication.shared.openURL(url!)
